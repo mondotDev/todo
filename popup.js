@@ -84,6 +84,11 @@ document.addEventListener('DOMContentLoaded', function () {
   function markTaskComplete(taskElement) {
     // Move a task from the 'to-do' list to the 'completed tasks' list
     todoList.removeChild(taskElement);
+
+    // Remove the 'task' class and add 'completed-task' class
+    taskElement.classList.remove('task');
+    taskElement.classList.add('completed-task');
+
     completedTasks.appendChild(taskElement);
     // Update the 'top todo' display
     updateTopTodo();

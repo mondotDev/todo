@@ -15,11 +15,18 @@ body {
   #tab1-content {
     display: block;
   }
-  #top-todo, #completed-tasks, #todo-list {
+  #top-todo, #todo-list {
     border: 1px solid #000;
     padding: 10px;
     height: 200px;
     overflow-y: scroll;
+  }
+  #completed-tasks {
+    border: 1px solid #000;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+    text-decoration: line-through;
   }
   .task {
     display: block;
