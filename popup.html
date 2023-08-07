@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div id="tabs">
+      <button id="focused-tab">Focused</button>
+      <button id="list-tab">The List</button>
+    </div>
+    <div id="focused-tab-content">
+      <div id="top-todo"></div>
+      <div id="completed-tasks"></div>
+    </div>
+    <div id="list-tab-content" style="display:none;">
+      <input id="new-task" type="text" placeholder="Enter new task">
+      <button id="add-task">Add Task</button>
+      <div id="todo-list"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

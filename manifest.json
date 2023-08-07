@@ -1,0 +1,11 @@
+{
+  "name": "Greater Perspective TO-DO App",
+  "description": "A to-do list that makes sure you know what you've accomplished",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "checkmark.png"
+  },
+  "permissions": ["storage"]
+}
