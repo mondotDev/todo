@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Event listener for newTaskInput
   // This function allows the use of 'Enter' to submit a new task
   newTaskInput.addEventListener('keydown', function (e) {
-    if (e.key === 'Enter' || e.keyCode === 13) {
+    if (e.key === 'Enter') {
       e.preventDefault(); // Prevent any default behavior
       e.addTaskButton.click(); // Trigger the add task button click even
     }
